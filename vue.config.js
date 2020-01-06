@@ -4,7 +4,7 @@ const resolve = dir => {
   return path.join(__dirname, dir)
 }
 module.exports = {
-  publicPath: '/dist',
+  publicPath: '/admin-cli',
   lintOnSave: true,
   chainWebpack: config => {
     config.resolve.alias
